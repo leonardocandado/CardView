@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun mockkList(): List<Postagem> {
-        val postagens = listOf(
+        return listOf(
             Postagem(
                 nome = "Leonardo",
                 postagem = "#tbt",
@@ -43,6 +43,5 @@ class MainActivity : AppCompatActivity() {
                 imagem = R.drawable.imagem4
             )
         )
-        return postagens
     }
 }
